@@ -9,6 +9,7 @@ const[Name,setName]=useState('Tatti');
 //    
 // useEffect(()=>{
   // console.log("UI Rendering Done");
+  
 // },[]);
 //    
 //Variation-> 3 (First Render+dependency)

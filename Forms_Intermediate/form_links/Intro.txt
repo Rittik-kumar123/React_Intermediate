@@ -1,0 +1,6 @@
+React Router->when moving from one page to another without repalcing page.It helps to  navigate between pages.
+Actually there is single page where different components are loaded.it's a framework.
+
+Using NavLink We can see the status of page or in which page/components currently present.as active class get added to it so we can identify it easily
+using Link we can connect to components or switching between components by click button
+Outlet->keyword which allow home page to show it's child components

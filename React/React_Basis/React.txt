@@ -1,0 +1,49 @@
+React-> is JS Library used to create UI.
+     -> it is all about component -> reusable piece of code we can call it function.
+     -> It create custom HTML element -> just for our understanding
+we can do everything that react do we can do by JS.
+Why React-> JS used imperative approach->means we have to do things step by step
+                                       ->More Number of lines we have to write in JS.
+                                       ->more code,more detailing
+
+        ->in react we only used to write the end state.
+        ->easy to create UI than by JS.
+generally React use declarative approach which is opposite to imperative approach.
+SPA(Single Page Application) Approach-> here in single HTML file we do all changes dynamically.
+
+React Alternatives->Angular,VUI.
+
+Component->  peace of code 
+         ->   why component in react-> Reusability,Do not Repeat Yourself(DRY),Readbility,Maintainability,etc
+
+Steps to create new SPA :
+step 1 -> Install node JS
+step 2 -> VS code
+step 3 -> Create a new folder -> Reactfolio
+step 4 -> Change directory to react folio
+step 5 -> npx create-react-app demoshopapp
+step 6 -> changes directory to demoshopapp
+step 7 -> npm start
+
+way#1 above
+
+way#2 below:
+Replit
+
+way#3 below:
+tailwind wala starter pack
+
+things to see first in React
+ ->package.json->dependencies/script/version
+ ->SRC->app.js
+      ->index.css
+      ->index.js
+->public->index.html->'root element is presene'->no need to do any change here
+->node-module->packges instal karte hai by npm start
+
+flow in react
+1.index.js->it executes file first and root create with the help of index.html
+2.through app.Js it render root and then render component by app.js
+3.render Html code present in app.js
+
+JSX-Javascript Examine

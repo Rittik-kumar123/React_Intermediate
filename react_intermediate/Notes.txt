@@ -1,0 +1,28 @@
+Useeffect->manges side effect like a react hook ->whenever we do some changes in ui it affect other part that we control through 
+const[text,setText]=useState('');
+const[Name,setName]=useState('Tatti');
+//Variation-> 1 (Every Render)
+// useEffect(()=>{
+  // console.log("UI Rendering Done");
+// });
+//Variation-> 2 (First Render)
+//    
+// useEffect(()=>{
+  // console.log("UI Rendering Done");
+// },[]);
+//    
+//Variation-> 3 (First Render+dependency)
+  // useEffect(()=>{
+    // console.log("UI Rendering Done");
+  // },[Name]);
+//Variation-> 4 (to handle unmounting of a component)
+useEffect(()=>{
+  console.log("added Lisner");
+  return()=>{
+    console.log("Removed Listner");
+  }
+},[text]);
+function changeHandler(event){
+  console.log(text);
+  setText(event.target.value);
+}
